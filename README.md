@@ -5,7 +5,7 @@ Tensorflow implementation
 HD GAN with Group norm, Hinge loss
 
 Persian miniature:
-<img width="420" align="cener" src="miniature_0.png">
+<img width="420" align="cener" src="miniature_0.gif">
 
 ## Installing
 The code is tested with Cuda 9 and tensorflow 1.10 on Titan V.<br/>
