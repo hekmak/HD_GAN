@@ -4,7 +4,6 @@ Tensorflow implementation
 # Introduction
 HD GAN with Group norm, Hinge loss
 
-Persian miniature:
 <img width="100" align="cener" src="miniature_0.gif">
 
 ## Installing
