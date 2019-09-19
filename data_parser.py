@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 import argparse
 import math
 AUTOTUNE = tf.data.experimental.AUTOTUNE
-s_h = 20*32#64*4#0//4
-s_w = 15*32#64*4#0//4
+s_h = 33*32#64*4#0//4
+s_w = 22*32#64*4#0//4
 size_h = s_h#1080#//4
 size_w = s_w#640#/4
 mean_ref_path = './mean_image.jpg'

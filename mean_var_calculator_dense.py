@@ -36,22 +36,6 @@ if __name__=='__main__':
 
         sparse_input, dense_label = iter.get_next()
 
-        #mask = tf.where(tf.equal(dense_label, 0), 
-        #        tf.zeros_like(dense_label), 
-        #        tf.ones_like(dense_label))
-
-        #total_valid_sum = tf.reduce_sum(mask)
-        #image_mean = tf.reduce_sum(dense_label)/ total_valid_sum
-        
-        #dist = tf.square(dense_label - tf.ones_like(dense_label)*image_mean)
-
-        #dist = tf.where(tf.equal(dense_label, 0), 
-        #        tf.zeros_like(dist), 
-        #        dist)
-
-        #image_var = tf.reduce_sum(dist)/ total_valid_sum
-
-        #sess = tf.Session()
         mean_all =0
         variance_all = 0
         count=0
@@ -68,17 +52,5 @@ if __name__=='__main__':
             #plt.imshow(X= depth_avg, cmap ='nipy_spectral')
             to_be_saved = depth_avg.astype(np.uint8)
             cv2.imwrite('./mean_image.jpg',to_be_saved)
-
-            #img.show()
-            #img.save('./mean_image.jpg')
-
-            #print('Mean: ', single_mean)
-            #print('Variance: ', single_var)
             print('Counter: ',count)
-            #print(' ')
-            #mean_all = mean_all+single_mean
-            #variance_all = variance_all+single_var
-            #count=count+1
-            #print('*********************************************************')  
-            #print('Average Mean: ', mean_all/count)
-            #print('Average Variance: ', variance_all/count)
+
