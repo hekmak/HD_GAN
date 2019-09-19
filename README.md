@@ -1,8 +1,10 @@
-# HD-GAN: for persian miniature
+# HD-GAN 
 Tensorflow implementation 
 
 # Introduction
-HD GAN with Group norm, Hinge loss
+HD GAN with Group norm, Hinge loss, ...
+
+Generating persian miniature:
 
 <img width="100" align="cener" src="miniature_0.gif">
 
