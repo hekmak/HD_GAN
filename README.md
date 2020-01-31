@@ -1,5 +1,5 @@
 # Periodontal prediction
-Tensorflow implementation of the keypoints predictor for perio.
+Tensorflow implementation of the keypoints predictor for perio.<br/>
 Healthy gums should fit snugly around each tooth, with the distance between the gum tissue and its attachment to the tooth only one to three millimeters in depth. 
 
 # Introduction
@@ -20,7 +20,7 @@ This will:<br/>
 2- For each valid mask crops the corresponding tooth and creates perio keypoints.<br/> 
 3- Saves the generated dataset.<br/> 
 
-<img width="100" align="cener" src="./boz.jpg">
+<img src="boz.jpg">
 <img width="100" align="cener" src="boz_pad.jpg">
 <img width="100" align="cener" src="tooth_img.jpg">
 <img width="100" align="cener" src="tooth_label.jpg">
