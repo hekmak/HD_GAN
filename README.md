@@ -15,12 +15,12 @@ bash docker_run.sh
 ```
 python3 pre_process.py
 ```
-This will:
-1- Pad x-rays and masks.
-2- For each valid mask crops the corresponding tooth and creates perio keypoints.
-3- Saves the generated dataset.
+This will:<br/> 
+1- Pad x-rays and masks.<br/> 
+2- For each valid mask crops the corresponding tooth and creates perio keypoints.<br/> 
+3- Saves the generated dataset.<br/> 
 
-<img width="100" align="cener" src="boz.jpg">
+<img width="100" align="cener" src="./boz.jpg">
 <img width="100" align="cener" src="boz_pad.jpg">
 <img width="100" align="cener" src="tooth_img.jpg">
 <img width="100" align="cener" src="tooth_label.jpg">
